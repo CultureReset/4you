@@ -1,3 +1,14 @@
+> **CultureReset fork of the upstream project shown under "forked from" at the top of this page.** The open-sourced ranking algorithm behind the For You feed on X.
+>
+> - **Why it is here:** Saved for reference.
+> - **Does anything run from it:** No.
+> - **Changes:** The default branch has no CultureReset commits; it is upstream as of the last sync.
+> - **License:** Apache-2.0, from upstream. For updates and issues, use the upstream project.
+>
+> The upstream README follows unchanged.
+
+---
+
 # X For You Feed Algorithm
 
 This repository contains the core code that determines which posts a viewer sees in the **For You** feed on X. It combines in-network content (from accounts the viewer follows) with out-of-network content (discovered through ML-based retrieval and other mechanisms), filters content based on a variety of inputs, and ranks posts using a transformer model.
